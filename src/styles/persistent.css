@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Voltaire&display=swap");
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 10px;
+    height: 50px;
+
+    font-family: 'Voltaire', sans-serif;
+}
+
+header .header-navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header .header-navbar .header-navbar-item {
+    margin-right: 30px;
+    list-style: none;
+    letter-spacing: 0.2rem;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+header a:visited {
+    color: #fff;
+}
+
+main {
+    overflow-y: inherit;
+    overflow-x: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#ScreenWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgb(158,192,186);
+    background: linear-gradient(0deg, rgba(158,192,186,1) 0%, rgba(60,131,122,1) 100%);
+    color: #fff; 
+}
+#ScreenWrapper h1 {
+    font-family: 'Voltaire', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 70px 10px 10px;
+}
